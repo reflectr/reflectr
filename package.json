@@ -1,0 +1,19 @@
+{
+  "name": "@reflectr/reflectr",
+  "version": "0.1.0",
+  "description": "create smart mirrors",
+  "main": "index.js",
+  "repository": "git@github.com:reflectr/reflectr.git",
+  "author": "Max Mühlbauer <git@bendenfield.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "commitizen": "^4.2.3",
+    "cz-conventional-changelog": "3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
